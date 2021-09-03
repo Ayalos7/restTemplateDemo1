@@ -36,15 +36,5 @@ public class Company {
 		return empRepo.findAll();
 	}
 	
-	public List<Job> getJobs(){
-		return jobRepo.findAll();
-	}
 
-	public List<Job> getJobs(Date endDate){
-		return jobRepo.findJobByEndDate(endDate);
-	}
-	
-	public List<Job> getJobs(Date start, Date end){
-		return jobRepo.findJobByEndDateBetween(start, end);
-	}
 }
