@@ -1,2 +1,5 @@
 # restTemplateDemo1
-restTemplate demo - not a project
+restTemplate exercise - demo
+Employee bean + service was given at start
+CLR tester - works with restTemplate
+Included option - Swagger + API controller
